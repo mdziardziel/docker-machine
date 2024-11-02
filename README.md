@@ -1,0 +1,1 @@
+docker build -t rails . && docker run --name rails -v $(pwd)/..:/app -it --rm rails
